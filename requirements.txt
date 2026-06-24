@@ -1,0 +1,9 @@
+yt-dlp
+opencv-python
+numpy
+torch
+librosa
+soundfile
+easyocr
+faster-whisper
+pillow
