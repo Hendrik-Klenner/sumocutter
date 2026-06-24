@@ -1779,10 +1779,7 @@ class SumoVerifierApp(tk.Tk):
     # TORIKUMI TAB – loading & matching
     # ============================================================
     def _load_torikumi_tab(self):
-        if self._torikumi_bouts:
-            self._render_torikumi()
-        else:
-            self._fetch_torikumi()
+        self._fetch_torikumi()
 
     def _fetch_torikumi(self):
         basho_id = self._torikumi_basho_id
